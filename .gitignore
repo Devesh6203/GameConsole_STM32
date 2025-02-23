@@ -1,0 +1,87 @@
+# A .gitignore for STM32Cube projects
+# References:
+#  - https://github.com/github/gitignore/blob/master/C.gitignore
+#  - https://shadyelectronics.com/how-to-use-github-with-stm32cubeide/
+#  - https://community.st.com/t5/stm32cubeide-mcus/standard-gitignore-project-setup-for-sharing-stm32cube-projects/td-p/625329
+#  - https://github.com/ethanhuanginst/STM32CubeIDE-Workshop-2019/blob/master/.gitignore
+
+# Ignore metadata folder contents: 
+.metadata/
+
+#settings
+.settings/
+
+#project files
+.mxproject
+.launch
+
+#Debug
+[Dd]ebug/
+[Rr]elease/
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# cscope with Vim
+cscope.*
+
+#ctags with Vim
+tags
+types_c.taghl
+
+#CtrlP
+ctrlp.root
+
+#html
+*.html
